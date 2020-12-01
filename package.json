@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/idinium96/node-tf2-schema-2#readme",
   "dependencies": {
-    "@nicklason/request-retry": "^1.1.2",
     "async": "^3.2.0",
     "events": "^3.2.0",
+    "request-retry-dayjs": "^1.0.0",
     "semver": "^6.3.0",
     "util": "^0.12.3",
     "vdf": "0.0.2"
