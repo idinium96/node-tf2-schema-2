@@ -25,6 +25,13 @@ class TF2 {
     }
 
     /**
+     * @param {String} apiKey Steam API key
+     */
+    setAPIKey (apiKey) {
+        this.apiKey = apiKey;
+    }
+
+    /**
      * Initializes the class
      * @param {Function} callback
      */
