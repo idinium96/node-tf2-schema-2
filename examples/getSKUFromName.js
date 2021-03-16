@@ -12,5 +12,5 @@ schemaManager.on('ready', function () {
     //console.log(JSON.stringify(schemaManager.schema.getPaints()));
     const name = schemaManager.schema.getSkuFromName('Professional Killstreak Third Degree Kit Fabricator');
 
-    console.log(name); // -> Mann Co. Supply Crate Key
+    console.log(name);
 });
