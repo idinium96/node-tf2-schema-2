@@ -1,6 +1,6 @@
 const Schema = require('../index');
 
-const schemaManager = new Schema({ apiKey: 'F6FEF9CB45E9612D71F18D55566048EF' });
+const schemaManager = new Schema({ apiKey: 'your steam api key' });
 
 schemaManager.init(function (err) {
     if (err) {
