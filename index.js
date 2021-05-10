@@ -70,7 +70,7 @@ class TF2 {
      */
     setSchema(data, fromUpdate) {
         // Ignore the schema if it does not contain a version, or if the schema has a higher version (major)
-        if ((!data.version && !fromUpdate) || semver.major(data.version) !== semver.major(version)) {
+        if ((!data.version && !fromUpdate) || semver.major(data.version) > semver.major(version)) {
             return;
         }
 
