@@ -23,11 +23,11 @@ declare class SchemaManager extends EventEmitter {
 
     getSchema(callback: (err: any, schema?: any) => void): void;
 
-    on(event: 'ready', handler: () => void): void;
+    on(event: 'ready', handler: () => void): this;
 
-    on(event: 'schema', handler: (schema: SchemaManager.Schema) => void): void;
+    on(event: 'schema', handler: (schema: SchemaManager.Schema) => void): this;
 
-    on(event: 'failed', handler: (err: Error) => void): void;
+    on(event: 'failed', handler: (err: Error) => void): this;
 }
 
 interface PricesResponse {
