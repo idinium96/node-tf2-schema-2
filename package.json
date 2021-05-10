@@ -19,10 +19,10 @@
   "homepage": "https://github.com/idinium96/node-tf2-schema-2#readme",
   "dependencies": {
     "async": "^3.2.0",
-    "events": "^3.2.0",
+    "events": "^3.3.0",
     "request-retry-dayjs": "^1.0.1",
     "semver": "^6.3.0",
-    "tf2-sku-2": "^1.1.1",
+    "tf2-sku-2": "^2.0.0",
     "util": "^0.12.3",
     "vdf": "0.0.2"
   },
