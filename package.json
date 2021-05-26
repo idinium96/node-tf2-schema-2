@@ -20,7 +20,7 @@
   "dependencies": {
     "async": "^3.2.0",
     "events": "^3.3.0",
-    "request-retry-dayjs": "^1.0.2",
+    "request-retry-dayjs": "^1.0.3",
     "semver": "^6.3.0",
     "tf2-sku-2": "^2.0.1",
     "util": "^0.12.3",
