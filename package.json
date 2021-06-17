@@ -1,6 +1,6 @@
 {
   "name": "tf2-schema-2",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Get information about TF2 items, effects, skins and more, originally made by Nicklason, modified by IdiNium.",
   "main": "index.js",
   "scripts": {
