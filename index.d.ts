@@ -87,6 +87,7 @@ declare namespace SchemaManager {
         item_name: string;
         item_description: string;
         proper_name: boolean;
+        item_slot: string;
         model_player?: string | null;
         item_quality: number;
         image_inventory: string;
@@ -95,6 +96,8 @@ declare namespace SchemaManager {
         image_url: string | null;
         image_url_large: string | null;
         drop_type?: string;
+        item_set?: string;
+        holiday_restriction?: string;
         craft_class?: string;
         craft_material_type?: string;
         capabilities?: SchemaItemCapabilities;
