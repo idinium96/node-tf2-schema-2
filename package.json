@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/idinium96/node-tf2-schema-2#readme",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.1",
     "events": "^3.3.0",
     "request-retry-dayjs": "^1.0.5",
     "semver": "^6.3.0",
